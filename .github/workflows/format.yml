@@ -11,11 +11,9 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
-      - name: Format
-        run: |
-          npm ci
-          npm run format
+          node-version: "16.x"
+      - run: npm ci
+      - run: npm run format
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
