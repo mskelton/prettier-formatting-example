@@ -1,7 +1,7 @@
 {
   "name": "prettier-formatting-example",
   "version": "1.0.0",
-  "description": "Auto Formatting Code Using Prettier and GitHub Actions",
+  "description": "Auto formatting code using Prettier and GitHub Actions",
   "author": "Mark Skelton",
   "license": "ISC",
   "repository": "github:mskelton/prettier-formatting-example",
