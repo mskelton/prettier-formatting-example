@@ -6,7 +6,11 @@
   "license": "ISC",
   "repository": "github:mskelton/prettier-formatting-example",
   "homepage": "https://mskelton.dev/blog/auto-formatting-code-using-prettier-and-github-actions",
-  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "format": "prettier --write ."
   },
